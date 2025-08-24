@@ -1,4 +1,9 @@
-# Speedtest Exporter
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="images/speedtest-exporter-logo.png">
+    <img src="images/speedtest-exporter-logo.png" width="65%">
+  </picture>
+</p>
 
 A simple Prometheus exporter for [Speedtest CLI](https://www.speedtest.net/apps/cli) results.
 
