@@ -5,6 +5,11 @@
   </picture>
 </p>
 
+<p align="center">
+  <a href="https://github.com/tritoxid/speedtest-exporter/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/tritoxid/speedtest-exporter/ci.yml?branch=main&logo=github" alt="Build Status" height="20"></a>
+  <a href="https://github.com/tritoxid/speedtest-exporter/pkgs/container/speedtest-exporter"><img src="https://img.shields.io/github/v/tag/tritoxid/speedtest-exporter?logo=docker" alt="Docker Tag" height="20"></a>
+</p>
+
 A simple Prometheus exporter for [Speedtest CLI](https://www.speedtest.net/apps/cli) results.
 
 This application runs the Speedtest CLI, collects the results, and pushes them to a Prometheus Pushgateway. This is useful for monitoring your internet connection speed over time.
